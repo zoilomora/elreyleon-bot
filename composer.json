@@ -1,0 +1,23 @@
+{
+    "name": "zoilomora/elreyleon-bot",
+    "authors": [
+        {
+            "name": "Zoilo Mora",
+            "email": "zoilo.mora@hotmail.com"
+        }
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.1",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3",
+        "eleirbag89/telegrambotphp": "^1.3",
+        "symfony/dotenv": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheLionKing\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  php:
+    build: ./
+    working_dir: /var/app/bin
+    command: php launch.php
+    volumes:
+      - ./:/var/app
+    restart: unless-stopped
